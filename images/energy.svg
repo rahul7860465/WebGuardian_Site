@@ -1,0 +1,39 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="energyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="url(#energyGrad)" rx="10"/>
+  
+  <!-- Wind Turbines -->
+  <rect x="80" y="80" width="8" height="60" fill="#ffffff"/>
+  <circle cx="84" cy="80" r="15" fill="#ffffff" opacity="0.8"/>
+  <line x1="84" y1="65" x2="84" y2="95" stroke="#374151" stroke-width="2"/>
+  
+  <rect x="150" y="70" width="8" height="70" fill="#ffffff"/>
+  <circle cx="154" cy="70" r="15" fill="#ffffff" opacity="0.8"/>
+  <line x1="154" y1="55" x2="154" y2="85" stroke="#374151" stroke-width="2"/>
+  
+  <rect x="220" y="85" width="8" height="55" fill="#ffffff"/>
+  <circle cx="224" cy="85" r="15" fill="#ffffff" opacity="0.8"/>
+  <line x1="224" y1="70" x2="224" y2="100" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Solar Panels -->
+  <rect x="50" y="120" width="40" height="30" fill="#1f2937"/>
+  <rect x="55" y="125" width="8" height="8" fill="#f59e0b"/>
+  <rect x="65" y="125" width="8" height="8" fill="#f59e0b"/>
+  <rect x="75" y="125" width="8" height="8" fill="#f59e0b"/>
+  <rect x="55" y="135" width="8" height="8" fill="#f59e0b"/>
+  <rect x="65" y="135" width="8" height="8" fill="#f59e0b"/>
+  <rect x="75" y="135" width="8" height="8" fill="#f59e0b"/>
+  
+  <!-- Energy Icons -->
+  <circle cx="80" cy="50" r="12" fill="#ffffff" opacity="0.8"/>
+  <text x="80" y="55" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="10">⚡</text>
+  
+  <circle cx="220" cy="50" r="12" fill="#ffffff" opacity="0.8"/>
+  <text x="220" y="55" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="10">🌞</text>
+</svg>

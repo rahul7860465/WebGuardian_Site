@@ -1,0 +1,130 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- E-commerce Dashboard -->
+  <rect x="50" y="50" width="300" height="200" fill="#1f2937" rx="10"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="300" height="40" fill="#374151" rx="10"/>
+  <text x="70" y="75" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">
+    E-commerce Management Platform
+  </text>
+  <circle cx="320" cy="70" r="8" fill="#f59e0b"/>
+  <text x="320" y="75" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Online</text>
+  
+  <!-- Sales Dashboard -->
+  <rect x="70" y="110" width="120" height="80" fill="#ffffff" rx="5"/>
+  <text x="80" y="130" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Today's Sales
+  </text>
+  <text x="80" y="150" fill="#f59e0b" font-family="Arial" font-size="20" font-weight="bold">
+    $12,450.00
+  </text>
+  <text x="80" y="170" fill="#059669" font-family="Arial" font-size="10">
+    +15.2% from yesterday
+  </text>
+  <rect x="80" y="175" width="80" height="8" fill="#f59e0b"/>
+  
+  <!-- Product Catalog -->
+  <rect x="210" y="110" width="120" height="80" fill="#ffffff" rx="5"/>
+  <text x="220" y="130" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Product Catalog
+  </text>
+  
+  <!-- Product Grid -->
+  <rect x="220" y="140" width="25" height="25" fill="#3b82f6"/>
+  <text x="225" y="155" fill="#ffffff" font-family="Arial" font-size="8">Laptop</text>
+  
+  <rect x="250" y="140" width="25" height="25" fill="#10b981"/>
+  <text x="255" y="155" fill="#ffffff" font-family="Arial" font-size="8">Phone</text>
+  
+  <rect x="280" y="140" width="25" height="25" fill="#f59e0b"/>
+  <text x="285" y="155" fill="#ffffff" font-family="Arial" font-size="8">Watch</text>
+  
+  <rect x="310" y="140" width="25" height="25" fill="#8b5cf6"/>
+  <text x="315" y="155" fill="#ffffff" font-family="Arial" font-size="8">Tablet</text>
+  
+  <text x="220" y="175" fill="#374151" font-family="Arial" font-size="10">
+    Total Products: 2,847
+  </text>
+  <text x="220" y="185" fill="#059669" font-family="Arial" font-size="10">
+    In Stock: 2,654
+  </text>
+  
+  <!-- Order Management -->
+  <rect x="70" y="210" width="120" height="30" fill="#ffffff" rx="5"/>
+  <text x="80" y="225" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Order Management
+  </text>
+  <text x="80" y="235" fill="#3b82f6" font-family="Arial" font-size="10">
+    45 Orders Today
+  </text>
+  
+  <!-- Customer Analytics -->
+  <rect x="210" y="210" width="120" height="30" fill="#ffffff" rx="5"/>
+  <text x="220" y="225" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Customer Analytics
+  </text>
+  <text x="220" y="235" fill="#059669" font-family="Arial" font-size="10">
+    1,234 Active Users
+  </text>
+  
+  <!-- Shopping Cart Interface -->
+  <rect x="350" y="50" width="40" height="200" fill="#000000" rx="5"/>
+  
+  <!-- Cart Items -->
+  <rect x="355" y="55" width="30" height="20" fill="#374151"/>
+  <text x="370" y="68" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Cart</text>
+  
+  <rect x="355" y="85" width="30" height="15" fill="#3b82f6"/>
+  <text x="370" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">Item 1</text>
+  
+  <rect x="355" y="105" width="30" height="15" fill="#10b981"/>
+  <text x="370" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">Item 2</text>
+  
+  <rect x="355" y="125" width="30" height="15" fill="#f59e0b"/>
+  <text x="370" y="135" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">Item 3</text>
+  
+  <!-- Payment Options -->
+  <rect x="355" y="150" width="30" height="20" fill="#374151"/>
+  <text x="370" y="163" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Pay</text>
+  
+  <rect x="355" y="180" width="30" height="15" fill="#059669"/>
+  <text x="370" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">Visa</text>
+  
+  <rect x="355" y="200" width="30" height="15" fill="#3b82f6"/>
+  <text x="370" y="210" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">PayPal</text>
+  
+  <rect x="355" y="220" width="30" height="15" fill="#8b5cf6"/>
+  <text x="370" y="230" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">Apple</text>
+  
+  <!-- Security Features -->
+  <rect x="50" y="270" width="300" height="20" fill="#374151" rx="5"/>
+  <circle cx="70" cy="280" r="4" fill="#f59e0b"/>
+  <text x="80" y="285" fill="#ffffff" font-family="Arial" font-size="10">
+    SSL Secured
+  </text>
+  <circle cx="180" cy="280" r="4" fill="#f59e0b"/>
+  <text x="190" y="285" fill="#ffffff" font-family="Arial" font-size="10">
+    PCI Compliant
+  </text>
+  <circle cx="280" cy="280" r="4" fill="#f59e0b"/>
+  <text x="290" y="285" fill="#ffffff" font-family="Arial" font-size="10">
+    Fraud Protected
+  </text>
+  
+  <!-- Shopping Icons -->
+  <circle cx="30" cy="80" r="12" fill="#f59e0b" opacity="0.7"/>
+  <text x="30" y="85" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">🛒</text>
+  
+  <circle cx="30" cy="150" r="10" fill="#10b981" opacity="0.7"/>
+  <text x="30" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">📦</text>
+  
+  <circle cx="30" cy="220" r="8" fill="#3b82f6" opacity="0.7"/>
+  <text x="30" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">💳</text>
+</svg>

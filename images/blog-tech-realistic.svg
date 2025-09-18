@@ -1,0 +1,112 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Technology Dashboard -->
+  <rect x="50" y="30" width="300" height="180" fill="#1f2937" rx="10"/>
+  
+  <!-- Header -->
+  <rect x="50" y="30" width="300" height="30" fill="#374151" rx="10"/>
+  <text x="70" y="50" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">
+    Cloud Migration & DevOps Dashboard
+  </text>
+  <circle cx="320" cy="45" r="6" fill="#3b82f6"/>
+  
+  <!-- Cloud Infrastructure -->
+  <rect x="70" y="80" width="120" height="80" fill="#000000" rx="5"/>
+  
+  <!-- AWS Services -->
+  <rect x="80" y="90" width="25" height="15" fill="#ff9900"/>
+  <text x="82" y="100" fill="#ffffff" font-family="Arial" font-size="6">EC2</text>
+  
+  <rect x="110" y="90" width="25" height="15" fill="#ff9900"/>
+  <text x="112" y="100" fill="#ffffff" font-family="Arial" font-size="6">S3</text>
+  
+  <rect x="140" y="90" width="25" height="15" fill="#ff9900"/>
+  <text x="142" y="100" fill="#ffffff" font-family="Arial" font-size="6">RDS</text>
+  
+  <rect x="170" y="90" width="25" height="15" fill="#ff9900"/>
+  <text x="172" y="100" fill="#ffffff" font-family="Arial" font-size="6">Lambda</text>
+  
+  <!-- Azure Services -->
+  <rect x="80" y="115" width="25" height="15" fill="#0078d4"/>
+  <text x="82" y="125" fill="#ffffff" font-family="Arial" font-size="6">VMs</text>
+  
+  <rect x="110" y="115" width="25" height="15" fill="#0078d4"/>
+  <text x="112" y="125" fill="#ffffff" font-family="Arial" font-size="6">SQL</text>
+  
+  <rect x="140" y="115" width="25" height="15" fill="#0078d4"/>
+  <text x="142" y="125" fill="#ffffff" font-family="Arial" font-size="6">AD</text>
+  
+  <rect x="170" y="115" width="25" height="15" fill="#0078d4"/>
+  <text x="172" y="125" fill="#ffffff" font-family="Arial" font-size="6">AKS</text>
+  
+  <!-- Kubernetes -->
+  <rect x="80" y="140" width="50" height="15" fill="#326ce5"/>
+  <text x="82" y="150" fill="#ffffff" font-family="Arial" font-size="6">Kubernetes</text>
+  
+  <rect x="140" y="140" width="40" height="15" fill="#00d4aa"/>
+  <text x="142" y="150" fill="#ffffff" font-family="Arial" font-size="6">Docker</text>
+  
+  <!-- Performance Metrics -->
+  <rect x="210" y="80" width="120" height="80" fill="#ffffff" rx="5"/>
+  <text x="220" y="100" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Performance Metrics
+  </text>
+  
+  <!-- CPU Usage -->
+  <rect x="220" y="110" width="100" height="8" fill="#e5e7eb"/>
+  <rect x="220" y="110" width="65" height="8" fill="#10b981"/>
+  <text x="220" y="125" fill="#374151" font-family="Arial" font-size="10">
+    CPU: 65%
+  </text>
+  
+  <!-- Memory Usage -->
+  <rect x="220" y="135" width="100" height="8" fill="#e5e7eb"/>
+  <rect x="220" y="135" width="78" height="8" fill="#3b82f6"/>
+  <text x="220" y="150" fill="#374151" font-family="Arial" font-size="10">
+    Memory: 78%
+  </text>
+  
+  <!-- Storage Usage -->
+  <rect x="220" y="160" width="100" height="8" fill="#e5e7eb"/>
+  <rect x="220" y="160" width="45" height="8" fill="#f59e0b"/>
+  <text x="220" y="175" fill="#374151" font-family="Arial" font-size="10">
+    Storage: 45%
+  </text>
+  
+  <!-- Deployment Status -->
+  <rect x="70" y="180" width="120" height="20" fill="#ffffff" rx="5"/>
+  <text x="80" y="193" fill="#374151" font-family="Arial" font-size="10">
+    Status: Production Ready ✓
+  </text>
+  
+  <!-- Security Score -->
+  <rect x="210" y="180" width="120" height="20" fill="#ffffff" rx="5"/>
+  <text x="220" y="193" fill="#374151" font-family="Arial" font-size="10">
+    Security Score: A+
+  </text>
+  
+  <!-- Technology Stack -->
+  <rect x="50" y="220" width="300" height="20" fill="#1f2937" rx="5"/>
+  <text x="60" y="233" fill="#10b981" font-family="Monaco, monospace" font-size="10">
+    React • Node.js • Python • Kubernetes • Docker • AWS • Azure
+  </text>
+  
+  <!-- Floating Tech Elements -->
+  <circle cx="30" cy="60" r="10" fill="#3b82f6" opacity="0.7"/>
+  <text x="30" y="65" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">☁️</text>
+  
+  <circle cx="370" cy="100" r="8" fill="#10b981" opacity="0.7"/>
+  <text x="370" y="105" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">⚡</text>
+  
+  <circle cx="30" cy="150" r="6" fill="#f59e0b" opacity="0.7"/>
+  <text x="30" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">🔧</text>
+  
+  <circle cx="370" cy="180" r="12" fill="#8b5cf6" opacity="0.7"/>
+  <text x="370" y="185" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">🚀</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="industryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1f2937;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Industrial Background -->
+  <rect width="300" height="200" fill="url(#industryGrad)" rx="10"/>
+  
+  <!-- Welding/Metalworking Process -->
+  <rect x="100" y="80" width="100" height="60" fill="#1f2937" rx="5"/>
+  
+  <!-- Sparks -->
+  <circle cx="120" cy="100" r="2" fill="#fbbf24"/>
+  <circle cx="140" cy="95" r="1.5" fill="#f59e0b"/>
+  <circle cx="160" cy="105" r="2" fill="#fbbf24"/>
+  <circle cx="180" cy="90" r="1" fill="#f59e0b"/>
+  <circle cx="170" cy="110" r="1.5" fill="#fbbf24"/>
+  <circle cx="150" cy="85" r="1" fill="#f59e0b"/>
+  <circle cx="130" cy="115" r="2" fill="#fbbf24"/>
+  <circle cx="190" cy="100" r="1.5" fill="#f59e0b"/>
+  
+  <!-- Metal Piece -->
+  <rect x="110" y="110" width="80" height="20" fill="#6b7280" rx="2"/>
+  <rect x="115" y="115" width="70" height="10" fill="#9ca3af" rx="1"/>
+  
+  <!-- Welding Torch -->
+  <rect x="95" y="95" width="15" height="5" fill="#374151"/>
+  <rect x="90" y="97" width="8" height="1" fill="#ef4444"/>
+  
+  <!-- Industrial Equipment -->
+  <rect x="50" y="140" width="40" height="30" fill="#374151" rx="3"/>
+  <rect x="55" y="145" width="30" height="20" fill="#1f2937" rx="2"/>
+  <circle cx="70" cy="155" r="3" fill="#10b981"/>
+  
+  <rect x="210" y="140" width="40" height="30" fill="#374151" rx="3"/>
+  <rect x="215" y="145" width="30" height="20" fill="#1f2937" rx="2"/>
+  <circle cx="230" cy="155" r="3" fill="#10b981"/>
+  
+  <!-- Conveyor Belt -->
+  <rect x="100" y="160" width="100" height="10" fill="#6b7280"/>
+  <rect x="105" y="162" width="90" height="6" fill="#9ca3af"/>
+  <rect x="110" y="164" width="80" height="2" fill="#d1d5db"/>
+  
+  <!-- Industrial Icons -->
+  <circle cx="50" cy="50" r="8" fill="#10b981" opacity="0.8"/>
+  <text x="50" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">⚙️</text>
+  
+  <circle cx="250" cy="50" r="8" fill="#f59e0b" opacity="0.8"/>
+  <text x="50" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">🔧</text>
+  
+  <circle cx="150" cy="30" r="6" fill="#ef4444" opacity="0.8"/>
+  <text x="150" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">⚡</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Laptop Frame -->
+  <rect x="50" y="80" width="300" height="180" rx="8" fill="#374151"/>
+  <rect x="60" y="90" width="280" height="140" rx="4" fill="url(#screenGrad)"/>
+  
+  <!-- Screen Content - Realistic Code Editor -->
+  <rect x="70" y="100" width="260" height="120" fill="#0f172a"/>
+  
+  <!-- Code Lines -->
+  <text x="80" y="120" fill="#10b981" font-family="Monaco, monospace" font-size="12">
+    &lt;!DOCTYPE html&gt;
+  </text>
+  <text x="80" y="140" fill="#3b82f6" font-family="Monaco, monospace" font-size="12">
+    &lt;html lang="en"&gt;
+  </text>
+  <text x="80" y="160" fill="#f59e0b" font-family="Monaco, monospace" font-size="12">
+    &lt;head&gt;
+  </text>
+  <text x="100" y="180" fill="#ef4444" font-family="Monaco, monospace" font-size="12">
+    &lt;title&gt;Web App&lt;/title&gt;
+  </text>
+  <text x="80" y="200" fill="#f59e0b" font-family="Monaco, monospace" font-size="12">
+    &lt;/head&gt;
+  </text>
+  
+  <!-- Browser Tabs -->
+  <rect x="70" y="100" width="80" height="20" fill="#374151"/>
+  <rect x="75" y="105" width="15" height="10" fill="#ef4444"/>
+  <rect x="95" y="105" width="15" height="10" fill="#f59e0b"/>
+  <rect x="115" y="105" width="15" height="10" fill="#10b981"/>
+  
+  <!-- Sidebar -->
+  <rect x="70" y="120" width="60" height="100" fill="#1f2937"/>
+  <rect x="80" y="130" width="40" height="8" fill="#6b7280"/>
+  <rect x="80" y="145" width="40" height="8" fill="#6b7280"/>
+  <rect x="80" y="160" width="40" height="8" fill="#6b7280"/>
+  
+  <!-- Terminal Window -->
+  <rect x="200" y="140" width="120" height="80" rx="4" fill="#000000"/>
+  <rect x="200" y="140" width="120" height="20" fill="#374151"/>
+  <circle cx="210" cy="150" r="3" fill="#ef4444"/>
+  <circle cx="225" cy="150" r="3" fill="#f59e0b"/>
+  <circle cx="240" cy="150" r="3" fill="#10b981"/>
+  
+  <text x="210" y="170" fill="#10b981" font-family="Monaco, monospace" font-size="10">
+    $ npm run dev
+  </text>
+  <text x="210" y="185" fill="#ffffff" font-family="Monaco, monospace" font-size="10">
+    ✓ Server running on :3000
+  </text>
+  <text x="210" y="200" fill="#10b981" font-family="Monaco, monospace" font-size="10">
+    $ git commit -m "feat"
+  </text>
+  
+  <!-- Laptop Base -->
+  <ellipse cx="200" cy="260" rx="160" ry="20" fill="#4b5563"/>
+  
+  <!-- Floating Elements -->
+  <circle cx="320" cy="60" r="15" fill="#3b82f6" opacity="0.8"/>
+  <circle cx="80" cy="50" r="12" fill="#10b981" opacity="0.8"/>
+  <circle cx="350" cy="100" r="10" fill="#f59e0b" opacity="0.8"/>
+</svg>

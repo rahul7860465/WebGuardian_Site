@@ -1,0 +1,57 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Education Background -->
+  <rect width="300" height="200" fill="url(#eduGrad)" rx="10"/>
+  
+  <!-- Laptop Screen -->
+  <rect x="80" y="60" width="140" height="90" fill="#000000" rx="8"/>
+  <rect x="85" y="65" width="130" height="80" fill="#1f2937" rx="5"/>
+  
+  <!-- Video Call Interface -->
+  <rect x="90" y="70" width="120" height="70" fill="#ffffff" rx="3"/>
+  
+  <!-- Main Video Window -->
+  <rect x="95" y="75" width="80" height="50" fill="#3b82f6" rx="2"/>
+  <circle cx="135" cy="100" r="15" fill="#ffffff" opacity="0.8"/>
+  <circle cx="135" cy="100" r="10" fill="#3b82f6"/>
+  <circle cx="135" cy="100" r="5" fill="#ffffff"/>
+  
+  <!-- Video Call Controls -->
+  <rect x="95" y="130" width="80" height="8" fill="#374151" rx="2"/>
+  <rect x="100" y="132" width="12" height="4" fill="#ef4444"/>
+  <rect x="115" y="132" width="12" height="4" fill="#10b981"/>
+  <rect x="130" y="132" width="12" height="4" fill="#10b981"/>
+  <rect x="145" y="132" width="12" height="4" fill="#10b981"/>
+  <rect x="160" y="132" width="12" height="4" fill="#10b981"/>
+  
+  <!-- Sidebar with Participants -->
+  <rect x="180" y="75" width="25" height="50" fill="#f3f4f6" rx="2"/>
+  <circle cx="192" cy="85" r="3" fill="#6b7280"/>
+  <circle cx="192" cy="95" r="3" fill="#6b7280"/>
+  <circle cx="192" cy="105" r="3" fill="#6b7280"/>
+  <circle cx="192" cy="115" r="3" fill="#6b7280"/>
+  
+  <!-- Chat Messages -->
+  <rect x="95" y="145" width="60" height="8" fill="#e5e7eb" rx="2"/>
+  <rect x="95" y="155" width="40" height="8" fill="#e5e7eb" rx="2"/>
+  
+  <!-- Person at Laptop -->
+  <ellipse cx="150" cy="170" rx="20" ry="12" fill="#fbbf24"/>
+  <rect x="140" y="160" width="20" height="20" fill="#374151"/>
+  
+  <!-- Education Icons -->
+  <circle cx="50" cy="50" r="8" fill="#059669" opacity="0.8"/>
+  <text x="50" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">📚</text>
+  
+  <circle cx="250" cy="50" r="8" fill="#f59e0b" opacity="0.8"/>
+  <text x="250" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">💻</text>
+  
+  <circle cx="150" cy="30" r="6" fill="#3b82f6" opacity="0.8"/>
+  <text x="150" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">🎓</text>
+</svg>

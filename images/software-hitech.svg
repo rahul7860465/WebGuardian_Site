@@ -1,0 +1,59 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Tech Background -->
+  <rect width="300" height="200" fill="url(#techGrad)" rx="10"/>
+  
+  <!-- Circuit Board -->
+  <rect x="50" y="50" width="200" height="120" fill="#000000" rx="5"/>
+  
+  <!-- Circuit Lines -->
+  <rect x="60" y="60" width="180" height="2" fill="#8b5cf6"/>
+  <rect x="60" y="70" width="160" height="2" fill="#8b5cf6"/>
+  <rect x="60" y="80" width="140" height="2" fill="#8b5cf6"/>
+  <rect x="60" y="90" width="170" height="2" fill="#8b5cf6"/>
+  <rect x="60" y="100" width="150" height="2" fill="#8b5cf6"/>
+  <rect x="60" y="110" width="180" height="2" fill="#8b5cf6"/>
+  <rect x="60" y="120" width="130" height="2" fill="#8b5cf6"/>
+  <rect x="60" y="130" width="160" height="2" fill="#8b5cf6"/>
+  
+  <!-- Vertical Lines -->
+  <rect x="80" y="60" width="2" height="80" fill="#8b5cf6"/>
+  <rect x="120" y="60" width="2" height="80" fill="#8b5cf6"/>
+  <rect x="160" y="60" width="2" height="80" fill="#8b5cf6"/>
+  <rect x="200" y="60" width="2" height="80" fill="#8b5cf6"/>
+  
+  <!-- Circuit Components -->
+  <circle cx="100" cy="80" r="8" fill="#10b981"/>
+  <circle cx="140" cy="80" r="8" fill="#10b981"/>
+  <circle cx="180" cy="80" r="8" fill="#10b981"/>
+  
+  <circle cx="100" cy="120" r="8" fill="#f59e0b"/>
+  <circle cx="140" cy="120" r="8" fill="#f59e0b"/>
+  <circle cx="180" cy="120" r="8" fill="#f59e0b"/>
+  
+  <!-- Microchips -->
+  <rect x="70" y="95" width="20" height="15" fill="#374151"/>
+  <rect x="150" y="95" width="20" height="15" fill="#374151"/>
+  <rect x="210" y="95" width="20" height="15" fill="#374151"/>
+  
+  <!-- Glowing Effect -->
+  <circle cx="150" cy="100" r="30" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="150" cy="100" r="20" fill="#8b5cf6" opacity="0.5"/>
+  <circle cx="150" cy="100" r="10" fill="#8b5cf6" opacity="0.7"/>
+  
+  <!-- Tech Icons -->
+  <circle cx="50" cy="40" r="8" fill="#8b5cf6" opacity="0.8"/>
+  <text x="50" y="45" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">💻</text>
+  
+  <circle cx="250" cy="40" r="8" fill="#10b981" opacity="0.8"/>
+  <text x="250" y="45" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">⚡</text>
+  
+  <circle cx="150" cy="20" r="6" fill="#f59e0b" opacity="0.8"/>
+  <text x="150" y="25" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="6">🚀</text>
+</svg>

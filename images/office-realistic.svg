@@ -1,0 +1,127 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="buildingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b3e5fc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Modern Office Building -->
+  <rect x="100" y="80" width="300" height="280" fill="url(#buildingGrad)" rx="10"/>
+  
+  <!-- Glass Windows Grid -->
+  <rect x="120" y="100" width="260" height="240" fill="url(#glassGrad)" opacity="0.3"/>
+  
+  <!-- Window Frames -->
+  <line x1="240" y1="100" x2="240" y2="340" stroke="#1e40af" stroke-width="2"/>
+  <line x1="120" y1="190" x2="380" y2="190" stroke="#1e40af" stroke-width="2"/>
+  <line x1="120" y1="280" x2="380" y2="280" stroke="#1e40af" stroke-width="2"/>
+  
+  <!-- Office Interior Views -->
+  <!-- Left Side - Meeting Room -->
+  <rect x="125" y="105" width="110" height="80" fill="#ffffff" opacity="0.9"/>
+  <rect x="130" y="110" width="100" height="8" fill="#3b82f6"/>
+  <rect x="130" y="125" width="80" height="6" fill="#6b7280"/>
+  <rect x="130" y="138" width="90" height="6" fill="#6b7280"/>
+  <rect x="130" y="151" width="70" height="6" fill="#6b7280"/>
+  <circle cx="180" cy="170" r="15" fill="#ffffff"/>
+  <circle cx="165" cy="165" r="3" fill="#3b82f6"/>
+  <circle cx="195" cy="165" r="3" fill="#3b82f6"/>
+  <circle cx="165" cy="175" r="3" fill="#3b82f6"/>
+  <circle cx="195" cy="175" r="3" fill="#3b82f6"/>
+  
+  <!-- Right Side - Development Area -->
+  <rect x="245" y="105" width="130" height="80" fill="#1f2937" opacity="0.9"/>
+  <rect x="250" y="110" width="120" height="15" fill="#000000"/>
+  <text x="255" y="122" fill="#10b981" font-family="Monaco, monospace" font-size="8">
+    &lt;WebGuardians&gt; Digital Excellence &lt;/WebGuardians&gt;
+  </text>
+  <rect x="250" y="130" width="120" height="8" fill="#3b82f6"/>
+  <rect x="250" y="145" width="100" height="8" fill="#10b981"/>
+  <rect x="250" y="160" width="110" height="8" fill="#f59e0b"/>
+  
+  <!-- Second Floor - Open Workspace -->
+  <rect x="125" y="195" width="250" height="80" fill="#f8fafc" opacity="0.9"/>
+  
+  <!-- Multiple Workstations -->
+  <rect x="135" y="205" width="60" height="40" fill="#ffffff"/>
+  <rect x="140" y="210" width="50" height="8" fill="#3b82f6"/>
+  <rect x="140" y="225" width="40" height="6" fill="#6b7280"/>
+  <rect x="140" y="235" width="45" height="6" fill="#6b7280"/>
+  
+  <rect x="205" y="205" width="60" height="40" fill="#ffffff"/>
+  <rect x="210" y="210" width="50" height="8" fill="#10b981"/>
+  <rect x="210" y="225" width="40" height="6" fill="#6b7280"/>
+  <rect x="210" y="235" width="45" height="6" fill="#6b7280"/>
+  
+  <rect x="275" y="205" width="60" height="40" fill="#ffffff"/>
+  <rect x="280" y="210" width="50" height="8" fill="#f59e0b"/>
+  <rect x="280" y="225" width="40" height="6" fill="#6b7280"/>
+  <rect x="280" y="235" width="45" height="6" fill="#6b7280"/>
+  
+  <rect x="345" y="205" width="60" height="40" fill="#ffffff"/>
+  <rect x="350" y="210" width="50" height="8" fill="#8b5cf6"/>
+  <rect x="350" y="225" width="40" height="6" fill="#6b7280"/>
+  <rect x="350" y="235" width="45" height="6" fill="#6b7280"/>
+  
+  <!-- Third Floor - Server Room -->
+  <rect x="125" y="285" width="250" height="50" fill="#1f2937" opacity="0.9"/>
+  
+  <!-- Server Racks -->
+  <rect x="135" y="295" width="20" height="35" fill="#374151"/>
+  <rect x="140" y="300" width="10" height="5" fill="#10b981"/>
+  <rect x="140" y="310" width="10" height="5" fill="#f59e0b"/>
+  <rect x="140" y="320" width="10" height="5" fill="#ef4444"/>
+  
+  <rect x="165" y="295" width="20" height="35" fill="#374151"/>
+  <rect x="170" y="300" width="10" height="5" fill="#10b981"/>
+  <rect x="170" y="310" width="10" height="5" fill="#f59e0b"/>
+  <rect x="170" y="320" width="10" height="5" fill="#ef4444"/>
+  
+  <rect x="195" y="295" width="20" height="35" fill="#374151"/>
+  <rect x="200" y="300" width="10" height="5" fill="#10b981"/>
+  <rect x="200" y="310" width="10" height="5" fill="#f59e0b"/>
+  <rect x="200" y="320" width="10" height="5" fill="#ef4444"/>
+  
+  <!-- Network Equipment -->
+  <rect x="230" y="295" width="40" height="20" fill="#374151"/>
+  <rect x="235" y="300" width="30" height="8" fill="#3b82f6"/>
+  <rect x="235" y="310" width="30" height="8" fill="#10b981"/>
+  
+  <!-- Building Signage -->
+  <rect x="200" y="40" width="100" height="30" fill="#ffffff" rx="5"/>
+  <text x="250" y="60" text-anchor="middle" fill="#1e40af" font-family="Arial" font-size="16" font-weight="bold">
+    Web Guardians
+  </text>
+  
+  <!-- Parking Area -->
+  <rect x="80" y="320" width="340" height="60" fill="#e5e7eb" rx="5"/>
+  <rect x="90" y="330" width="30" height="20" fill="#374151"/>
+  <rect x="130" y="330" width="30" height="20" fill="#374151"/>
+  <rect x="170" y="330" width="30" height="20" fill="#374151"/>
+  <rect x="210" y="330" width="30" height="20" fill="#374151"/>
+  <rect x="250" y="330" width="30" height="20" fill="#374151"/>
+  <rect x="290" y="330" width="30" height="20" fill="#374151"/>
+  <rect x="330" y="330" width="30" height="20" fill="#374151"/>
+  <rect x="370" y="330" width="30" height="20" fill="#374151"/>
+  
+  <!-- Technology Indicators -->
+  <circle cx="150" cy="50" r="8" fill="#10b981"/>
+  <text x="150" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">AI</text>
+  
+  <circle cx="200" cy="50" r="8" fill="#3b82f6"/>
+  <text x="200" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Cloud</text>
+  
+  <circle cx="250" cy="50" r="8" fill="#f59e0b"/>
+  <text x="250" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Web</text>
+  
+  <circle cx="300" cy="50" r="8" fill="#8b5cf6"/>
+  <text x="300" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Mobile</text>
+  
+  <circle cx="350" cy="50" r="8" fill="#ef4444"/>
+  <text x="350" y="55" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Data</text>
+</svg>

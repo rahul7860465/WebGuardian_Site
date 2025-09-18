@@ -1,0 +1,117 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="contactGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Contact Dashboard -->
+  <rect x="50" y="50" width="300" height="200" fill="#1f2937" rx="10"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="300" height="40" fill="#374151" rx="10"/>
+  <text x="70" y="75" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">
+    Contact Web Guardians
+  </text>
+  <circle cx="320" cy="70" r="8" fill="#6366f1"/>
+  <text x="320" y="75" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Live</text>
+  
+  <!-- Contact Form Interface -->
+  <rect x="70" y="110" width="120" height="80" fill="#ffffff" rx="5"/>
+  <text x="80" y="130" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Get in Touch
+  </text>
+  
+  <!-- Form Fields -->
+  <rect x="80" y="140" width="100" height="12" fill="#f3f4f6" rx="2"/>
+  <text x="82" y="149" fill="#6b7280" font-family="Arial" font-size="8">Your Name</text>
+  
+  <rect x="80" y="155" width="100" height="12" fill="#f3f4f6" rx="2"/>
+  <text x="82" y="164" fill="#6b7280" font-family="Arial" font-size="8">Email Address</text>
+  
+  <rect x="80" y="170" width="100" height="12" fill="#f3f4f6" rx="2"/>
+  <text x="82" y="179" fill="#6b7280" font-family="Arial" font-size="8">Phone Number</text>
+  
+  <!-- Contact Information -->
+  <rect x="210" y="110" width="120" height="80" fill="#ffffff" rx="5"/>
+  <text x="220" y="130" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Contact Details
+  </text>
+  
+  <!-- Email -->
+  <rect x="220" y="140" width="8" height="8" fill="#6366f1"/>
+  <text x="235" y="148" fill="#374151" font-family="Arial" font-size="9">
+    A2Zautomation@outlook.com
+  </text>
+  
+  <!-- Phone -->
+  <rect x="220" y="155" width="8" height="8" fill="#10b981"/>
+  <text x="235" y="163" fill="#374151" font-family="Arial" font-size="9">
+    +91 9643236258
+  </text>
+  
+  <!-- Location -->
+  <rect x="220" y="170" width="8" height="8" fill="#f59e0b"/>
+  <text x="235" y="178" fill="#374151" font-family="Arial" font-size="9">
+    India
+  </text>
+  
+  <!-- Communication Channels -->
+  <rect x="70" y="210" width="120" height="30" fill="#ffffff" rx="5"/>
+  <text x="80" y="225" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Quick Response
+  </text>
+  <text x="80" y="235" fill="#059669" font-family="Arial" font-size="10">
+    WhatsApp • Email • Call
+  </text>
+  
+  <!-- Response Time -->
+  <rect x="210" y="210" width="120" height="30" fill="#ffffff" rx="5"/>
+  <text x="220" y="225" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">
+    Response Time
+  </text>
+  <text x="220" y="235" fill="#3b82f6" font-family="Arial" font-size="10">
+    Within 2-4 hours
+  </text>
+  
+  <!-- Floating Contact Elements -->
+  <circle cx="30" cy="80" r="12" fill="#6366f1" opacity="0.7"/>
+  <text x="30" y="85" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">📧</text>
+  
+  <circle cx="30" cy="150" r="10" fill="#10b981" opacity="0.7"/>
+  <text x="30" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">📱</text>
+  
+  <circle cx="30" cy="220" r="8" fill="#f59e0b" opacity="0.7"/>
+  <text x="30" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">💬</text>
+  
+  <!-- Contact Methods -->
+  <rect x="350" y="80" width="40" height="120" fill="#000000" rx="5"/>
+  
+  <!-- WhatsApp -->
+  <rect x="355" y="85" width="30" height="20" fill="#25d366"/>
+  <text x="370" y="98" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">WhatsApp</text>
+  
+  <!-- Email -->
+  <rect x="355" y="115" width="30" height="20" fill="#6366f1"/>
+  <text x="370" y="128" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Email</text>
+  
+  <!-- Phone -->
+  <rect x="355" y="145" width="30" height="20" fill="#10b981"/>
+  <text x="370" y="158" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Call</text>
+  
+  <!-- Video Call -->
+  <rect x="355" y="175" width="30" height="20" fill="#ef4444"/>
+  <text x="370" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Video</text>
+  
+  <!-- Availability Status -->
+  <rect x="50" y="270" width="300" height="20" fill="#374151" rx="5"/>
+  <circle cx="70" cy="280" r="4" fill="#10b981"/>
+  <text x="80" y="285" fill="#ffffff" font-family="Arial" font-size="10">
+    Available 24/7 for Support
+  </text>
+  <circle cx="220" cy="280" r="4" fill="#f59e0b"/>
+  <text x="230" y="285" fill="#ffffff" font-family="Arial" font-size="10">
+    Free Consultation
+  </text>
+</svg>
